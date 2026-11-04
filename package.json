@@ -1,0 +1,33 @@
+{
+  "name": "gunpo-tennis-pages-worker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:web": "vite --host 127.0.0.1 --port 5173 --strictPort",
+    "dev:api": "wrangler dev --env local --local --ip 127.0.0.1 --port 8787",
+    "build": "tsc --noEmit && vite build",
+    "test": "node --test tests/*.test.mjs",
+    "check:worker": "wrangler deploy --env=\"\" --dry-run --outdir .worker-build",
+    "deploy:api": "node scripts/check-deploy.mjs && wrangler deploy --env=\"\"",
+    "preview": "vite preview --host 127.0.0.1 --port 4173 --strictPort"
+  },
+  "dependencies": {
+    "lucide-react": "1.31.0",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.2",
+    "typescript": "5.9.3",
+    "vite": "8.3.5",
+    "wrangler": "4.154.0"
+  }
+}
