@@ -25,3 +25,8 @@ html{line-height:1.5}button,input{color:inherit}button{background:transparent}ta
 .refund-panel summary:focus-visible{outline:3px solid #397c63;outline-offset:2px}
 .refund-content .refund-error{color:#9b3125}
 @media(max-width:520px){.refund-grid{grid-template-columns:1fr}.refund-content{padding-inline:12px}}
+
+.refund-required{color:#a82222;font-weight:700}
+.refund-booking-grid{grid-template-columns:repeat(3,minmax(0,1fr));margin-bottom:12px}
+.refund-grid select{width:100%;min-width:0;min-height:44px;padding:8px;border:1px solid #bcc7bf;border-radius:6px;background:#fbfcfa;color:var(--ink);font:inherit;font-size:16px}
+@media(max-width:520px){.refund-booking-grid{grid-template-columns:1fr}}
