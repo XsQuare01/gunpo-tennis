@@ -17,6 +17,7 @@
     "preview": "vite preview --host 127.0.0.1 --port 4173 --strictPort"
   },
   "dependencies": {
+    "fflate": "0.8.3",
     "lucide-react": "1.31.0",
     "react": "19.2.6",
     "react-dom": "19.2.6"

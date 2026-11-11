@@ -9,3 +9,19 @@ html{line-height:1.5}button,input{color:inherit}button{background:transparent}ta
 @media(max-width:1050px){.app-shell{padding-inline:30px}.time-column{width:95px;padding-inline:12px}.available-cell{font-size:10px;gap:2px;width:calc(100% - 10px)}.available-cell svg{width:12px}.court-art{margin-inline-end:0;width:150px}}
 @media(max-width:780px){.app-shell{padding-inline:20px}.site-header{min-height:82px}.intro{padding-block:32px 25px}.intro h1{font-size:30px}.court-art{display:none}.date-panel{padding:18px 14px}.date-top{flex-wrap:wrap;gap:12px}.date-input-wrap{justify-content:space-between;width:100%;gap:8px}.quick-dates{width:100%;justify-content:flex-end}.week-days{gap:3px}.week-nav{gap:2px}.week-arrow{min-width:28px}.day-button{min-height:75px;padding:8px 3px;gap:6px}.day-button strong{font-size:20px}.desktop-table{display:none}.mobile-courts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.mobile-court{background:white;border:1px solid var(--line);border-radius:11px;padding:17px}.mobile-court>div:first-child{display:flex;align-items:center;justify-content:space-between;gap:7px;margin-bottom:13px}.mobile-court h3{font-size:15px;font-weight:600}.mobile-court>div:first-child>span{color:var(--muted);font-size:10px}.slot-chips{display:flex;flex-wrap:wrap;gap:7px}.slot-chips button{display:flex;align-items:center;justify-content:space-between;gap:6px;min-height:40px;background:var(--pale);border:1px solid #d9e6d1;color:var(--green);padding:9px;border-radius:6px;font-size:11px;font-variant-numeric:tabular-nums}.slot-chips p{font-size:11px;line-height:1.7;color:var(--muted)}.table-bottom{align-items:flex-start}.selection-actions{flex-wrap:wrap}.guide{padding:19px 16px;gap:10px}.guide>a{display:none}.loading-grid{grid-template-columns:repeat(3,1fr);min-height:250px}footer{flex-wrap:wrap;gap:9px}}
 @media(max-width:460px){.app-shell{padding-inline:16px}.brand{font-size:17px}.brand-icon{width:36px;height:36px}.brand-icon svg{width:27px}.source-link{font-size:10px;padding:10px;gap:4px}.intro h1{font-size:31px;letter-spacing:-1.2px}.mobile-break{display:block}.subtitle{font-size:12px;max-width:285px}.quick-dates button{flex:1;padding:9px 6px}.date-input-wrap input{font-size:16px}.week-arrow{min-width:24px}.day-button strong{font-size:18px}.results-heading h2{font-size:21px}.results-toolbar{align-items:flex-start;flex-direction:column;gap:0;padding-block:12px}.result-count{min-height:26px;font-size:11px}.filter-checkbox{min-height:32px}.mobile-courts{grid-template-columns:1fr}.mobile-court{padding:16px}.slot-chips button{font-size:12px}.selection-panel{padding:20px 17px}.selection-panel h3{font-size:18px}.table-bottom{flex-direction:column;gap:10px}.guide-icon{display:none}}
+
+.refund-panel{margin:0 0 18px;background:white;border:1px solid var(--line);border-radius:12px}
+.refund-panel summary{padding:13px 18px;min-height:44px;cursor:pointer;font-weight:600;color:var(--green)}
+.refund-content{padding:0 18px 18px;line-height:1.7}
+.refund-content p{margin:8px 0;color:var(--muted)}
+.refund-content a{text-decoration:underline;text-underline-offset:3px}
+.refund-content fieldset{margin:16px 0;padding:12px;border:1px solid var(--line);border-radius:8px;min-width:0}
+.refund-content legend{font-weight:600;padding:0 4px}
+.refund-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.refund-grid label{display:grid;gap:4px;font-weight:600}
+.refund-grid input{width:100%;min-width:0;min-height:44px;padding:8px;border:1px solid #bcc7bf;border-radius:6px;background:#fbfcfa;font-size:16px}
+.refund-wide{grid-column:1/-1}
+.refund-actions{display:flex;align-items:center;flex-wrap:wrap;gap:12px}
+.refund-panel summary:focus-visible{outline:3px solid #397c63;outline-offset:2px}
+.refund-content .refund-error{color:#9b3125}
+@media(max-width:520px){.refund-grid{grid-template-columns:1fr}.refund-content{padding-inline:12px}}
